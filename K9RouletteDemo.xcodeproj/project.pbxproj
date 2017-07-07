@@ -14,8 +14,8 @@
 		C94DADF61F0C8BC300EE2F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94DADF41F0C8BC300EE2F5D /* Main.storyboard */; };
 		C94DADF81F0C8BC300EE2F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94DADF71F0C8BC300EE2F5D /* Assets.xcassets */; };
 		C94DADFB1F0C8BC300EE2F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94DADF91F0C8BC300EE2F5D /* LaunchScreen.storyboard */; };
-		C94DAE051F0C8EB500EE2F5D /* K9Roulette.m in Sources */ = {isa = PBXBuildFile; fileRef = C94DAE041F0C8EB500EE2F5D /* K9Roulette.m */; };
 		C959DB781F0F240E00617D5D /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C959DB771F0F240E00617D5D /* sound.mp3 */; };
+		C959DB7C1F0F664900617D5D /* K9Roulette.m in Sources */ = {isa = PBXBuildFile; fileRef = C959DB7B1F0F664900617D5D /* K9Roulette.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +32,9 @@
 		C94DADF71F0C8BC300EE2F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C94DADFA1F0C8BC300EE2F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C94DADFC1F0C8BC300EE2F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C94DAE031F0C8EB500EE2F5D /* K9Roulette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = K9Roulette.h; sourceTree = "<group>"; };
-		C94DAE041F0C8EB500EE2F5D /* K9Roulette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = K9Roulette.m; sourceTree = "<group>"; };
 		C959DB771F0F240E00617D5D /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = SOURCE_ROOT; };
+		C959DB7A1F0F664900617D5D /* K9Roulette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = K9Roulette.h; sourceTree = "<group>"; };
+		C959DB7B1F0F664900617D5D /* K9Roulette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = K9Roulette.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +52,7 @@
 		C94DADDF1F0C8BC300EE2F5D = {
 			isa = PBXGroup;
 			children = (
+				C959DB791F0F664900617D5D /* K9Roulette */,
 				C94DADEA1F0C8BC300EE2F5D /* K9RouletteDemo */,
 				C94DADE91F0C8BC300EE2F5D /* Products */,
 				F34ACD7D4D967F4E7AC1367C /* Pods */,
@@ -70,7 +71,6 @@
 		C94DADEA1F0C8BC300EE2F5D /* K9RouletteDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C94DAE021F0C8DE000EE2F5D /* K9Roulette */,
 				C94DADEE1F0C8BC300EE2F5D /* AppDelegate.h */,
 				C94DADEF1F0C8BC300EE2F5D /* AppDelegate.m */,
 				C94DADF11F0C8BC300EE2F5D /* ViewController.h */,
@@ -93,11 +93,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C94DAE021F0C8DE000EE2F5D /* K9Roulette */ = {
+		C959DB791F0F664900617D5D /* K9Roulette */ = {
 			isa = PBXGroup;
 			children = (
-				C94DAE031F0C8EB500EE2F5D /* K9Roulette.h */,
-				C94DAE041F0C8EB500EE2F5D /* K9Roulette.m */,
+				C959DB7A1F0F664900617D5D /* K9Roulette.h */,
+				C959DB7B1F0F664900617D5D /* K9Roulette.m */,
 			);
 			path = K9Roulette;
 			sourceTree = "<group>";
@@ -245,7 +245,7 @@
 				C94DADF31F0C8BC300EE2F5D /* ViewController.m in Sources */,
 				C94DADF01F0C8BC300EE2F5D /* AppDelegate.m in Sources */,
 				C94DADED1F0C8BC300EE2F5D /* main.m in Sources */,
-				C94DAE051F0C8EB500EE2F5D /* K9Roulette.m in Sources */,
+				C959DB7C1F0F664900617D5D /* K9Roulette.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
