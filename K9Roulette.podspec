@@ -23,9 +23,9 @@ Pod::Spec.new do |s|
 
   s.subspec 'K9Roulette' do |ss|
     ss.ios.source_files  = 'K9Roulette/*.{h,m}',
-    ss.public_header_files = 'PinPay/*.h'
+    ss.public_header_files = 'K9Roulette/*.h'
   end
 
-  s.dependency "Masonry", "~> 1.0.2"
+  s.dependency "Masonry"
 
 end
