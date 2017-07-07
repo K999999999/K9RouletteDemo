@@ -1,0 +1,15 @@
+PODS:
+  - Masonry (1.0.2)
+  - SoundManager (1.4.2)
+
+DEPENDENCIES:
+  - Masonry (~> 1.0.2)
+  - SoundManager (~> 1.4.2)
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SoundManager: 99ae328a3ec9b259db774c9851a65feeceba8183
+
+PODFILE CHECKSUM: a4da81569bd70531d347909db3a65a6508187807
+
+COCOAPODS: 1.1.1
