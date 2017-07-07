@@ -38,4 +38,4 @@ pod 'K9Roulette', '~> 0.0.1'
 
 ## Licenses
 
-All source code is licensed under the [MIT License](https://github.com/K999999999/K9RouletteDemo/LICENSE).
+All source code is licensed under the [MIT License](https://github.com/K999999999/K9RouletteDemo/blob/master/LICENSE).
