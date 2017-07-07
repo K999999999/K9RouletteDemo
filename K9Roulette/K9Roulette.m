@@ -350,7 +350,9 @@
         delegate.animationStopBlock = ^(BOOL flag) {
             
             __strong typeof(weakSelf)self = weakSelf;
-            [self k9_stopDisplayLink];
+            if (self.k9_rotationView.layer.animationKeys == 0) {
+                [self k9_stopDisplayLink];
+            }
         };
         rotationAnimation.delegate = delegate;
         [self.k9_rotationView.layer addAnimation:rotationAnimation forKey:@"Rotation"];
@@ -419,7 +421,7 @@
 
 - (void)k9_stopDisplayLink {
     
-    if (!_k9_displayLink) {
+    if (_k9_displayLink) {
         
         [_k9_displayLink removeFromRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
         [_k9_displayLink invalidate];

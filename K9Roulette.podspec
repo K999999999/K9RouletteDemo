@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "K9Roulette"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "K9Roulette"
   s.description  = "This is a roulette with support for same or different angle."
   s.homepage     = "https://github.com/K999999999/K9RouletteDemo"
